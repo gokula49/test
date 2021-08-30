@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 95vw;
+    height: 1000vh;
+    
+    margin: 0px 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3333;
+    /* align-items: center; */
+
+   
+
+
+}
+
+.icon ul{
+    display: inline-flex;
+    
+}
+
+li{
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+button{
+background-color: green;
+border: 0;
+padding: 4px 8px ;
+
+border-radius: 20px;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 2px 6px;
+    border:2px solid black;
+    
+}
+
+.btn{
+    width: 90px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+input:focus{
+    outline: 0;
+}
+
+
+button a{
+    text-decoration: none;
+}
